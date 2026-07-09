@@ -1,0 +1,721 @@
+{
+  "contract": "0x004287c47efc912fec391979154454a8017a76c6",
+  "chain": "lux-cchain-96369",
+  "totalMinted": 118,
+  "summary": {
+    "validators": 104,
+    "coins": 14,
+    "people_held": 50,
+    "treasury_held": 68
+  },
+  "tokens": [
+    {
+      "id": 0,
+      "owner": "0x8d56c7cf8b17a11580822c7fff90b05b6a3e1b5e",
+      "name": "GENESIS VALIDATOR #1",
+      "holder": "person"
+    },
+    {
+      "id": 1,
+      "owner": "0x8d56c7cf8b17a11580822c7fff90b05b6a3e1b5e",
+      "name": "GENESIS VALIDATOR #2",
+      "holder": "person"
+    },
+    {
+      "id": 2,
+      "owner": "0x8d56c7cf8b17a11580822c7fff90b05b6a3e1b5e",
+      "name": "GENESIS VALIDATOR #3",
+      "holder": "person"
+    },
+    {
+      "id": 3,
+      "owner": "0x8d56c7cf8b17a11580822c7fff90b05b6a3e1b5e",
+      "name": "NANO COIN #4",
+      "holder": "person"
+    },
+    {
+      "id": 4,
+      "owner": "0x8d56c7cf8b17a11580822c7fff90b05b6a3e1b5e",
+      "name": "MINI COIN #5",
+      "holder": "person"
+    },
+    {
+      "id": 5,
+      "owner": "0x8d56c7cf8b17a11580822c7fff90b05b6a3e1b5e",
+      "name": "VALIDATOR COIN #6",
+      "holder": "person"
+    },
+    {
+      "id": 6,
+      "owner": "0x31387d95334f7c45391410e1c43dadacfc889f4a",
+      "name": "GENESIS VALIDATOR #7",
+      "holder": "person"
+    },
+    {
+      "id": 7,
+      "owner": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "name": "GENESIS VALIDATOR #8",
+      "holder": "person"
+    },
+    {
+      "id": 8,
+      "owner": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "name": "GENESIS VALIDATOR #9",
+      "holder": "person"
+    },
+    {
+      "id": 9,
+      "owner": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "name": "GENESIS VALIDATOR #10",
+      "holder": "person"
+    },
+    {
+      "id": 10,
+      "owner": "0xe00a0921ce8bc7525383383b247f568fd01e53fa",
+      "name": "GENESIS VALIDATOR #11",
+      "holder": "person"
+    },
+    {
+      "id": 11,
+      "owner": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "name": "GENESIS COIN #12",
+      "holder": "person"
+    },
+    {
+      "id": 12,
+      "owner": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "name": "GENESIS VALIDATOR #13",
+      "holder": "person"
+    },
+    {
+      "id": 13,
+      "owner": "0x9df3f0e20e4e1f1eed635ba6f7dc2612dd4e1fbf",
+      "name": "GENESIS VALIDATOR #14",
+      "holder": "person"
+    },
+    {
+      "id": 14,
+      "owner": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "name": "GENESIS VALIDATOR #15",
+      "holder": "person"
+    },
+    {
+      "id": 15,
+      "owner": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "name": "GENESIS VALIDATOR #16",
+      "holder": "person"
+    },
+    {
+      "id": 16,
+      "owner": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "name": "GENESIS VALIDATOR #17",
+      "holder": "person"
+    },
+    {
+      "id": 17,
+      "owner": "0xcbe29430026b8dc840cabc25745dd1106253d333",
+      "name": "GENESIS VALIDATOR #18",
+      "holder": "person"
+    },
+    {
+      "id": 18,
+      "owner": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "name": "GENESIS VALIDATOR #19",
+      "holder": "person"
+    },
+    {
+      "id": 19,
+      "owner": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "name": "GENESIS VALIDATOR #20",
+      "holder": "person"
+    },
+    {
+      "id": 20,
+      "owner": "0x7438d25f78da4b184466a04a40d45dcdf9d44158",
+      "name": "GENESIS VALIDATOR #21",
+      "holder": "person"
+    },
+    {
+      "id": 21,
+      "owner": "0x70c91206b85d9d42fc0a5c0c79705931ab7d5881",
+      "name": "GENESIS VALIDATOR #22",
+      "holder": "person"
+    },
+    {
+      "id": 22,
+      "owner": "0x3ef096e10358363fd6cf2cf6052079d5467a12f3",
+      "name": "GENESIS VALIDATOR #23",
+      "holder": "person"
+    },
+    {
+      "id": 23,
+      "owner": "0x3ef096e10358363fd6cf2cf6052079d5467a12f3",
+      "name": "MINI COIN #24",
+      "holder": "person"
+    },
+    {
+      "id": 24,
+      "owner": "0x515e3c5d738e62d8b800f5f87abff284d77cbb4e",
+      "name": "MINI COIN #25",
+      "holder": "person"
+    },
+    {
+      "id": 25,
+      "owner": "0x111e89e354f48c324a8d2ca9873c028798aaa290",
+      "name": "GENESIS VALIDATOR #26",
+      "holder": "person"
+    },
+    {
+      "id": 26,
+      "owner": "0x497ec62bdc58d003faf38f3c132302692fe687fd",
+      "name": "GENESIS VALIDATOR #27",
+      "holder": "person"
+    },
+    {
+      "id": 27,
+      "owner": "0x5945d401dd63bfbb3c67824d72b8fca1e3f8f6e4",
+      "name": "GENESIS VALIDATOR #28",
+      "holder": "person"
+    },
+    {
+      "id": 28,
+      "owner": "0x5945d401dd63bfbb3c67824d72b8fca1e3f8f6e4",
+      "name": "VALIDATOR COIN #29",
+      "holder": "person"
+    },
+    {
+      "id": 29,
+      "owner": "0x3ef096e10358363fd6cf2cf6052079d5467a12f3",
+      "name": "MINI COIN #30",
+      "holder": "person"
+    },
+    {
+      "id": 30,
+      "owner": "0xaa64006a3a14e16d58933c1fad7ff4f1468c5efd",
+      "name": "MINI COIN #31",
+      "holder": "person"
+    },
+    {
+      "id": 31,
+      "owner": "0xd8f3c05fb24cb1ab19a11b7b032c9a5a914640bc",
+      "name": "GENESIS VALIDATOR #32",
+      "holder": "person"
+    },
+    {
+      "id": 32,
+      "owner": "0x908a311766ffb525ec05c75b884ee00a620d94d2",
+      "name": "VALIDATOR COIN #33",
+      "holder": "person"
+    },
+    {
+      "id": 33,
+      "owner": "0x908a311766ffb525ec05c75b884ee00a620d94d2",
+      "name": "VALIDATOR COIN #34",
+      "holder": "person"
+    },
+    {
+      "id": 34,
+      "owner": "0x094109ab78767713305d2e5cd05d832cd1faefb5",
+      "name": "GENESIS COIN #35",
+      "holder": "person"
+    },
+    {
+      "id": 35,
+      "owner": "0x094109ab78767713305d2e5cd05d832cd1faefb5",
+      "name": "GENESIS VALIDATOR #36",
+      "holder": "person"
+    },
+    {
+      "id": 36,
+      "owner": "0x366887642858e2b0c4faf7226a1462aae53e41a2",
+      "name": "GENESIS VALIDATOR #37",
+      "holder": "person"
+    },
+    {
+      "id": 37,
+      "owner": "0x469796eef1154ef2d0a2d2d8815771d7264a5ff6",
+      "name": "GENESIS VALIDATOR #38",
+      "holder": "person"
+    },
+    {
+      "id": 38,
+      "owner": "0x1e3a17775d0d0cfefb09f869617f1d22e0fd9f6c",
+      "name": "MINI COIN #39",
+      "holder": "person"
+    },
+    {
+      "id": 39,
+      "owner": "0x515e3c5d738e62d8b800f5f87abff284d77cbb4e",
+      "name": "VALIDATOR COIN #40",
+      "holder": "person"
+    },
+    {
+      "id": 40,
+      "owner": "0x8750d110d594405b788d98e1376e9841555252c2",
+      "name": "GENESIS VALIDATOR #41",
+      "holder": "person"
+    },
+    {
+      "id": 41,
+      "owner": "0x5b6a8eb3added38e01543eb09437cfcbe7b0ddae",
+      "name": "GENESIS VALIDATOR #42",
+      "holder": "person"
+    },
+    {
+      "id": 42,
+      "owner": "0x0315b3892dea66a5ddbd6e6b7ad6492490ad10bf",
+      "name": "MINI COIN #43",
+      "holder": "person"
+    },
+    {
+      "id": 43,
+      "owner": "0x0315b3892dea66a5ddbd6e6b7ad6492490ad10bf",
+      "name": "NANO COIN #44",
+      "holder": "person"
+    },
+    {
+      "id": 44,
+      "owner": "0x0315b3892dea66a5ddbd6e6b7ad6492490ad10bf",
+      "name": "NANO COIN #45",
+      "holder": "person"
+    },
+    {
+      "id": 45,
+      "owner": "0x24fdff1c4f9222ec941e7f8da54f0922f5108433",
+      "name": "MINI COIN #46",
+      "holder": "person"
+    },
+    {
+      "id": 46,
+      "owner": "0x77f495ddbe4892bbd6400404c508448e216c7586",
+      "name": "GENESIS VALIDATOR #47",
+      "holder": "person"
+    },
+    {
+      "id": 47,
+      "owner": "0xb4699dc301ca712e3d852e69ebe3f7dfbb0ad4b6",
+      "name": "GENESIS VALIDATOR #48",
+      "holder": "person"
+    },
+    {
+      "id": 48,
+      "owner": "0x2f6a1ce06263f499d600893435e00ea351b765f0",
+      "name": "GENESIS VALIDATOR #49",
+      "holder": "person"
+    },
+    {
+      "id": 49,
+      "owner": "0x3bcaed65fd2a3296ae448ec28f3067071378c3fd",
+      "name": null,
+      "holder": "person"
+    },
+    {
+      "id": 50,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #33",
+      "holder": "treasury"
+    },
+    {
+      "id": 51,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #34",
+      "holder": "treasury"
+    },
+    {
+      "id": 52,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #35",
+      "holder": "treasury"
+    },
+    {
+      "id": 53,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #4",
+      "holder": "treasury"
+    },
+    {
+      "id": 54,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #5",
+      "holder": "treasury"
+    },
+    {
+      "id": 55,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #6",
+      "holder": "treasury"
+    },
+    {
+      "id": 56,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #39",
+      "holder": "treasury"
+    },
+    {
+      "id": 57,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #40",
+      "holder": "treasury"
+    },
+    {
+      "id": 58,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #12",
+      "holder": "treasury"
+    },
+    {
+      "id": 59,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #24",
+      "holder": "treasury"
+    },
+    {
+      "id": 60,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #43",
+      "holder": "treasury"
+    },
+    {
+      "id": 61,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #44",
+      "holder": "treasury"
+    },
+    {
+      "id": 62,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #45",
+      "holder": "treasury"
+    },
+    {
+      "id": 63,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #46",
+      "holder": "treasury"
+    },
+    {
+      "id": 64,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #25",
+      "holder": "treasury"
+    },
+    {
+      "id": 65,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #29",
+      "holder": "treasury"
+    },
+    {
+      "id": 66,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #30",
+      "holder": "treasury"
+    },
+    {
+      "id": 67,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #31",
+      "holder": "treasury"
+    },
+    {
+      "id": 68,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #51",
+      "holder": "treasury"
+    },
+    {
+      "id": 69,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #52",
+      "holder": "treasury"
+    },
+    {
+      "id": 70,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #53",
+      "holder": "treasury"
+    },
+    {
+      "id": 71,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #54",
+      "holder": "treasury"
+    },
+    {
+      "id": 72,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #55",
+      "holder": "treasury"
+    },
+    {
+      "id": 73,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #56",
+      "holder": "treasury"
+    },
+    {
+      "id": 74,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #57",
+      "holder": "treasury"
+    },
+    {
+      "id": 75,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #58",
+      "holder": "treasury"
+    },
+    {
+      "id": 76,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #59",
+      "holder": "treasury"
+    },
+    {
+      "id": 77,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #60",
+      "holder": "treasury"
+    },
+    {
+      "id": 78,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #61",
+      "holder": "treasury"
+    },
+    {
+      "id": 79,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #62",
+      "holder": "treasury"
+    },
+    {
+      "id": 80,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #63",
+      "holder": "treasury"
+    },
+    {
+      "id": 81,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #64",
+      "holder": "treasury"
+    },
+    {
+      "id": 82,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #65",
+      "holder": "treasury"
+    },
+    {
+      "id": 83,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #66",
+      "holder": "treasury"
+    },
+    {
+      "id": 84,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #67",
+      "holder": "treasury"
+    },
+    {
+      "id": 85,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #68",
+      "holder": "treasury"
+    },
+    {
+      "id": 86,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #69",
+      "holder": "treasury"
+    },
+    {
+      "id": 87,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #70",
+      "holder": "treasury"
+    },
+    {
+      "id": 88,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #71",
+      "holder": "treasury"
+    },
+    {
+      "id": 89,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #72",
+      "holder": "treasury"
+    },
+    {
+      "id": 90,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #73",
+      "holder": "treasury"
+    },
+    {
+      "id": 91,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #74",
+      "holder": "treasury"
+    },
+    {
+      "id": 92,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #75",
+      "holder": "treasury"
+    },
+    {
+      "id": 93,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #76",
+      "holder": "treasury"
+    },
+    {
+      "id": 94,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #77",
+      "holder": "treasury"
+    },
+    {
+      "id": 95,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #78",
+      "holder": "treasury"
+    },
+    {
+      "id": 96,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #79",
+      "holder": "treasury"
+    },
+    {
+      "id": 97,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #80",
+      "holder": "treasury"
+    },
+    {
+      "id": 98,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #81",
+      "holder": "treasury"
+    },
+    {
+      "id": 99,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #82",
+      "holder": "treasury"
+    },
+    {
+      "id": 100,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #83",
+      "holder": "treasury"
+    },
+    {
+      "id": 101,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #84",
+      "holder": "treasury"
+    },
+    {
+      "id": 102,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #85",
+      "holder": "treasury"
+    },
+    {
+      "id": 103,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #86",
+      "holder": "treasury"
+    },
+    {
+      "id": 104,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #87",
+      "holder": "treasury"
+    },
+    {
+      "id": 105,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #88",
+      "holder": "treasury"
+    },
+    {
+      "id": 106,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #89",
+      "holder": "treasury"
+    },
+    {
+      "id": 107,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #90",
+      "holder": "treasury"
+    },
+    {
+      "id": 108,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #91",
+      "holder": "treasury"
+    },
+    {
+      "id": 109,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #92",
+      "holder": "treasury"
+    },
+    {
+      "id": 110,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #93",
+      "holder": "treasury"
+    },
+    {
+      "id": 111,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #94",
+      "holder": "treasury"
+    },
+    {
+      "id": 112,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #95",
+      "holder": "treasury"
+    },
+    {
+      "id": 113,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #96",
+      "holder": "treasury"
+    },
+    {
+      "id": 114,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #97",
+      "holder": "treasury"
+    },
+    {
+      "id": 115,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #98",
+      "holder": "treasury"
+    },
+    {
+      "id": 116,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #99",
+      "holder": "treasury"
+    },
+    {
+      "id": 117,
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714",
+      "name": "Lux Genesis Validator #100",
+      "holder": "treasury"
+    }
+  ]
+}

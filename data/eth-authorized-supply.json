@@ -1,0 +1,54 @@
+{
+  "contract": "0x941E3B4fC883B1746E52814EB8574b85E6Fa4E66",
+  "chain": "ethereum-mainnet",
+  "name": "lux.town Genesis Drop (Gen 0)",
+  "token_types": [
+    {
+      "type": "Validator",
+      "authorized": 100,
+      "minted": 32,
+      "unminted": 68
+    },
+    {
+      "type": "Wallet 10B Lux",
+      "authorized": 1,
+      "minted": 0,
+      "unminted": 1
+    },
+    {
+      "type": "Wallet 1B Lux",
+      "authorized": 10,
+      "minted": 2,
+      "unminted": 8
+    },
+    {
+      "type": "Wallet 100M Lux",
+      "authorized": 100,
+      "minted": 5,
+      "unminted": 95
+    },
+    {
+      "type": "Wallet 10M Lux",
+      "authorized": 1000,
+      "minted": 8,
+      "unminted": 992
+    },
+    {
+      "type": "Wallet 1M Lux",
+      "authorized": 10000,
+      "minted": 3,
+      "unminted": 9997
+    },
+    {
+      "type": "ATM",
+      "authorized": 1000,
+      "minted": 0,
+      "unminted": 1000
+    }
+  ],
+  "totals": {
+    "authorized": 12211,
+    "minted": 50,
+    "unminted": 12161
+  }
+}

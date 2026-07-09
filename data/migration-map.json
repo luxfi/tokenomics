@@ -1,0 +1,1157 @@
+{
+  "generated_utc": "2026-07-09T23:27:27Z",
+  "note": "Regenerate with: python3 data/gen_migration_map.py",
+  "ethereum": {
+    "media_contract": "0x31e0F919C67ceDd2Bc3E294340Dc900735810311",
+    "drop_contract": "0x941E3B4fC883B1746E52814EB8574b85E6Fa4E66",
+    "app_contract": "0x44A210571E135C6a536564e9B14dc4DA63f3D398",
+    "chain": "ethereum-mainnet",
+    "chain_id": 1,
+    "snapshot_block": 25443474,
+    "minted": 50,
+    "distinct_holders": 28,
+    "redemption_reserve_lux": 34583000000
+  },
+  "cchain": {
+    "contract": "0x004287C47efc912FEc391979154454a8017A76C6",
+    "chain": "lux-cchain",
+    "chain_id": 96369,
+    "total_minted": 118,
+    "people_held": 50,
+    "treasury_held": 68,
+    "treasury_wallet": "0x9011E888251AB053B7bD1cdB598Db4f9DEd94714"
+  },
+  "summary": {
+    "validators_total": 100,
+    "coins_total": 18,
+    "coins_people_held": 18,
+    "validators_people_held": 32,
+    "validators_treasury_completion": 68,
+    "cchain_recorded_lux_locked": 102583000000,
+    "cchain_validator_bond_lux": 100000000000,
+    "cchain_coin_bond_lux": 2583000000
+  },
+  "people_migration": [
+    {
+      "eth_token_id": 1,
+      "cchain_token_id": 0,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #1",
+      "holder": "0x8d56c7cf8b17a11580822c7fff90b05b6a3e1b5e",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 2,
+      "cchain_token_id": 1,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #2",
+      "holder": "0x8d56c7cf8b17a11580822c7fff90b05b6a3e1b5e",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 3,
+      "cchain_token_id": 2,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #3",
+      "holder": "0x8d56c7cf8b17a11580822c7fff90b05b6a3e1b5e",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 4,
+      "cchain_token_id": 3,
+      "class": "coin",
+      "tier": "NANO",
+      "bond_lux": 1000000,
+      "cchain_name": "NANO COIN #4",
+      "holder": "0x8d56c7cf8b17a11580822c7fff90b05b6a3e1b5e",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 5,
+      "cchain_token_id": 4,
+      "class": "coin",
+      "tier": "MINI",
+      "bond_lux": 10000000,
+      "cchain_name": "MINI COIN #5",
+      "holder": "0x8d56c7cf8b17a11580822c7fff90b05b6a3e1b5e",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 6,
+      "cchain_token_id": 5,
+      "class": "coin",
+      "tier": "VALIDATOR",
+      "bond_lux": 100000000,
+      "cchain_name": "VALIDATOR COIN #6",
+      "holder": "0x8d56c7cf8b17a11580822c7fff90b05b6a3e1b5e",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 7,
+      "cchain_token_id": 6,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #7",
+      "holder": "0x31387d95334f7c45391410e1c43dadacfc889f4a",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 8,
+      "cchain_token_id": 7,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #8",
+      "holder": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 9,
+      "cchain_token_id": 8,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #9",
+      "holder": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 10,
+      "cchain_token_id": 9,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #10",
+      "holder": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 11,
+      "cchain_token_id": 10,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #11",
+      "holder": "0xe00a0921ce8bc7525383383b247f568fd01e53fa",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 12,
+      "cchain_token_id": 11,
+      "class": "coin",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS COIN #12",
+      "holder": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 13,
+      "cchain_token_id": 12,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #13",
+      "holder": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 14,
+      "cchain_token_id": 13,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #14",
+      "holder": "0x9df3f0e20e4e1f1eed635ba6f7dc2612dd4e1fbf",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 15,
+      "cchain_token_id": 14,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #15",
+      "holder": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 16,
+      "cchain_token_id": 15,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #16",
+      "holder": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 17,
+      "cchain_token_id": 16,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #17",
+      "holder": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 18,
+      "cchain_token_id": 17,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #18",
+      "holder": "0xcbe29430026b8dc840cabc25745dd1106253d333",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 19,
+      "cchain_token_id": 18,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #19",
+      "holder": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 20,
+      "cchain_token_id": 19,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #20",
+      "holder": "0xb7c5819f928a02ff3946b369d997e1d52712bf41",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 21,
+      "cchain_token_id": 20,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #21",
+      "holder": "0x7438d25f78da4b184466a04a40d45dcdf9d44158",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 22,
+      "cchain_token_id": 21,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #22",
+      "holder": "0x70c91206b85d9d42fc0a5c0c79705931ab7d5881",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 23,
+      "cchain_token_id": 22,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #23",
+      "holder": "0x3ef096e10358363fd6cf2cf6052079d5467a12f3",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 24,
+      "cchain_token_id": 23,
+      "class": "coin",
+      "tier": "MINI",
+      "bond_lux": 10000000,
+      "cchain_name": "MINI COIN #24",
+      "holder": "0x3ef096e10358363fd6cf2cf6052079d5467a12f3",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 25,
+      "cchain_token_id": 24,
+      "class": "coin",
+      "tier": "MINI",
+      "bond_lux": 10000000,
+      "cchain_name": "MINI COIN #25",
+      "holder": "0x515e3c5d738e62d8b800f5f87abff284d77cbb4e",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 26,
+      "cchain_token_id": 25,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #26",
+      "holder": "0x111e89e354f48c324a8d2ca9873c028798aaa290",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 27,
+      "cchain_token_id": 26,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #27",
+      "holder": "0x497ec62bdc58d003faf38f3c132302692fe687fd",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 28,
+      "cchain_token_id": 27,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #28",
+      "holder": "0x5945d401dd63bfbb3c67824d72b8fca1e3f8f6e4",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 29,
+      "cchain_token_id": 28,
+      "class": "coin",
+      "tier": "VALIDATOR",
+      "bond_lux": 100000000,
+      "cchain_name": "VALIDATOR COIN #29",
+      "holder": "0x5945d401dd63bfbb3c67824d72b8fca1e3f8f6e4",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 30,
+      "cchain_token_id": 29,
+      "class": "coin",
+      "tier": "MINI",
+      "bond_lux": 10000000,
+      "cchain_name": "MINI COIN #30",
+      "holder": "0x3ef096e10358363fd6cf2cf6052079d5467a12f3",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 31,
+      "cchain_token_id": 30,
+      "class": "coin",
+      "tier": "MINI",
+      "bond_lux": 10000000,
+      "cchain_name": "MINI COIN #31",
+      "holder": "0xaa64006a3a14e16d58933c1fad7ff4f1468c5efd",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 32,
+      "cchain_token_id": 31,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #32",
+      "holder": "0xd8f3c05fb24cb1ab19a11b7b032c9a5a914640bc",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 33,
+      "cchain_token_id": 32,
+      "class": "coin",
+      "tier": "VALIDATOR",
+      "bond_lux": 100000000,
+      "cchain_name": "VALIDATOR COIN #33",
+      "holder": "0x908a311766ffb525ec05c75b884ee00a620d94d2",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 34,
+      "cchain_token_id": 33,
+      "class": "coin",
+      "tier": "VALIDATOR",
+      "bond_lux": 100000000,
+      "cchain_name": "VALIDATOR COIN #34",
+      "holder": "0x908a311766ffb525ec05c75b884ee00a620d94d2",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 35,
+      "cchain_token_id": 34,
+      "class": "coin",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS COIN #35",
+      "holder": "0x094109ab78767713305d2e5cd05d832cd1faefb5",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 36,
+      "cchain_token_id": 35,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #36",
+      "holder": "0x094109ab78767713305d2e5cd05d832cd1faefb5",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 37,
+      "cchain_token_id": 36,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #37",
+      "holder": "0x366887642858e2b0c4faf7226a1462aae53e41a2",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 38,
+      "cchain_token_id": 37,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #38",
+      "holder": "0x469796eef1154ef2d0a2d2d8815771d7264a5ff6",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 39,
+      "cchain_token_id": 38,
+      "class": "coin",
+      "tier": "MINI",
+      "bond_lux": 10000000,
+      "cchain_name": "MINI COIN #39",
+      "holder": "0x1e3a17775d0d0cfefb09f869617f1d22e0fd9f6c",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 40,
+      "cchain_token_id": 39,
+      "class": "coin",
+      "tier": "VALIDATOR",
+      "bond_lux": 100000000,
+      "cchain_name": "VALIDATOR COIN #40",
+      "holder": "0x515e3c5d738e62d8b800f5f87abff284d77cbb4e",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 41,
+      "cchain_token_id": 40,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #41",
+      "holder": "0x8750d110d594405b788d98e1376e9841555252c2",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 42,
+      "cchain_token_id": 41,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #42",
+      "holder": "0x5b6a8eb3added38e01543eb09437cfcbe7b0ddae",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 43,
+      "cchain_token_id": 42,
+      "class": "coin",
+      "tier": "MINI",
+      "bond_lux": 10000000,
+      "cchain_name": "MINI COIN #43",
+      "holder": "0x0315b3892dea66a5ddbd6e6b7ad6492490ad10bf",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 44,
+      "cchain_token_id": 43,
+      "class": "coin",
+      "tier": "NANO",
+      "bond_lux": 1000000,
+      "cchain_name": "NANO COIN #44",
+      "holder": "0x0315b3892dea66a5ddbd6e6b7ad6492490ad10bf",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 45,
+      "cchain_token_id": 44,
+      "class": "coin",
+      "tier": "NANO",
+      "bond_lux": 1000000,
+      "cchain_name": "NANO COIN #45",
+      "holder": "0x0315b3892dea66a5ddbd6e6b7ad6492490ad10bf",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 46,
+      "cchain_token_id": 45,
+      "class": "coin",
+      "tier": "MINI",
+      "bond_lux": 10000000,
+      "cchain_name": "MINI COIN #46",
+      "holder": "0x24fdff1c4f9222ec941e7f8da54f0922f5108433",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 47,
+      "cchain_token_id": 46,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #47",
+      "holder": "0x77f495ddbe4892bbd6400404c508448e216c7586",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 48,
+      "cchain_token_id": 47,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #48",
+      "holder": "0xb4699dc301ca712e3d852e69ebe3f7dfbb0ad4b6",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 49,
+      "cchain_token_id": 48,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": "GENESIS VALIDATOR #49",
+      "holder": "0x2f6a1ce06263f499d600893435e00ea351b765f0",
+      "owner_verified": true
+    },
+    {
+      "eth_token_id": 50,
+      "cchain_token_id": 49,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "cchain_name": null,
+      "holder": "0x3bcaed65fd2a3296ae448ec28f3067071378c3fd",
+      "owner_verified": true
+    }
+  ],
+  "treasury_completion": [
+    {
+      "cchain_token_id": 50,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 33,
+      "cchain_name": "Lux Genesis Validator #33",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 51,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 34,
+      "cchain_name": "Lux Genesis Validator #34",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 52,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 35,
+      "cchain_name": "Lux Genesis Validator #35",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 53,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 4,
+      "cchain_name": "Lux Genesis Validator #4",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 54,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 5,
+      "cchain_name": "Lux Genesis Validator #5",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 55,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 6,
+      "cchain_name": "Lux Genesis Validator #6",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 56,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 39,
+      "cchain_name": "Lux Genesis Validator #39",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 57,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 40,
+      "cchain_name": "Lux Genesis Validator #40",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 58,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 12,
+      "cchain_name": "Lux Genesis Validator #12",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 59,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 24,
+      "cchain_name": "Lux Genesis Validator #24",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 60,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 43,
+      "cchain_name": "Lux Genesis Validator #43",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 61,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 44,
+      "cchain_name": "Lux Genesis Validator #44",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 62,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 45,
+      "cchain_name": "Lux Genesis Validator #45",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 63,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 46,
+      "cchain_name": "Lux Genesis Validator #46",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 64,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 25,
+      "cchain_name": "Lux Genesis Validator #25",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 65,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 29,
+      "cchain_name": "Lux Genesis Validator #29",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 66,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 30,
+      "cchain_name": "Lux Genesis Validator #30",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 67,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 31,
+      "cchain_name": "Lux Genesis Validator #31",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 68,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 51,
+      "cchain_name": "Lux Genesis Validator #51",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 69,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 52,
+      "cchain_name": "Lux Genesis Validator #52",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 70,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 53,
+      "cchain_name": "Lux Genesis Validator #53",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 71,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 54,
+      "cchain_name": "Lux Genesis Validator #54",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 72,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 55,
+      "cchain_name": "Lux Genesis Validator #55",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 73,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 56,
+      "cchain_name": "Lux Genesis Validator #56",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 74,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 57,
+      "cchain_name": "Lux Genesis Validator #57",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 75,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 58,
+      "cchain_name": "Lux Genesis Validator #58",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 76,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 59,
+      "cchain_name": "Lux Genesis Validator #59",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 77,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 60,
+      "cchain_name": "Lux Genesis Validator #60",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 78,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 61,
+      "cchain_name": "Lux Genesis Validator #61",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 79,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 62,
+      "cchain_name": "Lux Genesis Validator #62",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 80,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 63,
+      "cchain_name": "Lux Genesis Validator #63",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 81,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 64,
+      "cchain_name": "Lux Genesis Validator #64",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 82,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 65,
+      "cchain_name": "Lux Genesis Validator #65",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 83,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 66,
+      "cchain_name": "Lux Genesis Validator #66",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 84,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 67,
+      "cchain_name": "Lux Genesis Validator #67",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 85,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 68,
+      "cchain_name": "Lux Genesis Validator #68",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 86,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 69,
+      "cchain_name": "Lux Genesis Validator #69",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 87,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 70,
+      "cchain_name": "Lux Genesis Validator #70",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 88,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 71,
+      "cchain_name": "Lux Genesis Validator #71",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 89,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 72,
+      "cchain_name": "Lux Genesis Validator #72",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 90,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 73,
+      "cchain_name": "Lux Genesis Validator #73",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 91,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 74,
+      "cchain_name": "Lux Genesis Validator #74",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 92,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 75,
+      "cchain_name": "Lux Genesis Validator #75",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 93,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 76,
+      "cchain_name": "Lux Genesis Validator #76",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 94,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 77,
+      "cchain_name": "Lux Genesis Validator #77",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 95,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 78,
+      "cchain_name": "Lux Genesis Validator #78",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 96,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 79,
+      "cchain_name": "Lux Genesis Validator #79",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 97,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 80,
+      "cchain_name": "Lux Genesis Validator #80",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 98,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 81,
+      "cchain_name": "Lux Genesis Validator #81",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 99,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 82,
+      "cchain_name": "Lux Genesis Validator #82",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 100,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 83,
+      "cchain_name": "Lux Genesis Validator #83",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 101,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 84,
+      "cchain_name": "Lux Genesis Validator #84",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 102,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 85,
+      "cchain_name": "Lux Genesis Validator #85",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 103,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 86,
+      "cchain_name": "Lux Genesis Validator #86",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 104,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 87,
+      "cchain_name": "Lux Genesis Validator #87",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 105,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 88,
+      "cchain_name": "Lux Genesis Validator #88",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 106,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 89,
+      "cchain_name": "Lux Genesis Validator #89",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 107,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 90,
+      "cchain_name": "Lux Genesis Validator #90",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 108,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 91,
+      "cchain_name": "Lux Genesis Validator #91",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 109,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 92,
+      "cchain_name": "Lux Genesis Validator #92",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 110,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 93,
+      "cchain_name": "Lux Genesis Validator #93",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 111,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 94,
+      "cchain_name": "Lux Genesis Validator #94",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 112,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 95,
+      "cchain_name": "Lux Genesis Validator #95",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 113,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 96,
+      "cchain_name": "Lux Genesis Validator #96",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 114,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 97,
+      "cchain_name": "Lux Genesis Validator #97",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 115,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 98,
+      "cchain_name": "Lux Genesis Validator #98",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 116,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 99,
+      "cchain_name": "Lux Genesis Validator #99",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    },
+    {
+      "cchain_token_id": 117,
+      "class": "validator",
+      "tier": "GENESIS",
+      "bond_lux": 1000000000,
+      "validator_serial": 100,
+      "cchain_name": "Lux Genesis Validator #100",
+      "owner": "0x9011e888251ab053b7bd1cdb598db4f9ded94714"
+    }
+  ],
+  "verification": {
+    "all_checks_passed": true,
+    "eth_owner_equals_cchain_owner_1to1": true,
+    "coin_tier_matches_eth_bond": true,
+    "validator_serials_exactly_1_to_100": true,
+    "treasury_low_serials_equal_eth_coin_ids": true
+  }
+}
