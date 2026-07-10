@@ -62,10 +62,56 @@ Two on-chain actions completed the collection:
    C-Chain token id 49 / Ethereum #50, which had a `null` name in the export
    snapshot).
 
-**Result today:** 118 tokens on-chain — 100 Genesis Validators (32 original +
-68 treasury) + 18 Coins (original holders). **12,093 authorized-but-unminted
-remain** (11,093 Coins + 1,000 ATM/Card), pending an owner-gated mint (and a
-contract tier extension — see [cchain/GENESIS-NFTS.md](../cchain/GENESIS-NFTS.md#gaps)).
+**Result of the 2026-07-09 pass:** 118 tokens on-chain — 100 Genesis Validators
+(32 original + 68 treasury) + 18 Coins (original holders). **12,093
+authorized-but-unminted remain** (11,093 Coins + 1,000 ATM/Card), pending an
+owner-gated mint (and a contract tier extension — see
+[cchain/GENESIS-NFTS.md](../cchain/GENESIS-NFTS.md#gaps)).
+
+> **⚠️ SUPERSEDED — this 118-token state was WIPED by the 2026-07-10 genesis
+> reset below.** It is preserved here as the **re-mint target** (the exact
+> collection to reproduce at final launch), **not** the current on-chain state.
+
+### 2026-07-10 — Mainnet 96369 reset to a fresh genesis (app-layer state wiped)
+
+The mainnet C-Chain "consensus" saga was ultimately traced to a **C-Chain VM
+configuration bug, not consensus**: a `warpConfig` precompile entry
+(`precompileUpgrades[0]` with `disable:true`, conflicting with the genesis warp
+*enable*) bricked C-Chain **VM-init on every fresh boot** (coreth static
+validator: `invalid precompile upgrades: PrecompileUpgrade (warpConfig) at [0]:
+disable should be [false]`). Recovery required a **fresh genesis**, which the
+owner authorized ("reset is fine, no one using it").
+
+**What the reset wiped (recoverable — all re-mintable):**
+
+- The **118 Genesis NFTs** on contract
+  `0x004287C47efc912FEc391979154454a8017A76C6` (100 Validators + 18 Coins) and
+  **all post-genesis C-Chain state**. The 2026-07-07 re-mint and the 2026-07-09
+  treasury completion described above are **gone from chain** — the sections
+  above now read as **specification**, not live state.
+
+**What the reset preserved (unchanged):**
+
+- **Treasury `0x9011E888251AB053B7bD1cdB598Db4f9DEd94714` = 2,000,000,000,000 LUX
+  (2T).** This is a **genesis allocation** in `cChainGenesis`, so it survives any
+  fresh genesis intact — the fixed 2T supply and the DAO holding are not affected
+  by the reset.
+- The **canonical 2T distribution** ([SUPPLY.md](../SUPPLY.md)) and the **ETH →
+  C-Chain migration record** (this file + [MAPPING.md](MAPPING.md)) — both remain
+  the **spec**. Nothing about the *design* changed; only the app-layer *state* was
+  reset.
+
+**Deferred to after the v1.36 consensus rip-out settles:**
+
+The NFT re-mint, the full **12,093-token** authorized mint, and the **tokenomics
+convergence** (redistribute ~990B out of the treasury into the Public
+Sale / vesting / program / NFT buckets → DAO endpoint 1.00T; see
+[RECONCILIATION.md](../RECONCILIATION.md)) are **all deferred**. Rationale: the
+consensus layer is being rebuilt for **v1.36** (the Tendermint rip-out — see
+`~/work/lux/consensus/docs/postmortems/tendermint-accretion.md`), and that work
+**may require another fresh genesis**. Redeploying the entire app layer (NFTs +
+distribution) **once**, after v1.36 is final, avoids doing it twice. Until then,
+mainnet 96369 carries **genesis + the 2T treasury only**.
 
 ---
 
@@ -75,10 +121,14 @@ Context only — this repo documents tokenomics, not node operations; kept short
 it is not overstated.
 
 - The 2026-07 C-Chain migration and re-mint happened during the mainnet
-  finality-stall **recovery series**.
-- Mainnet node image at the time of writing: **`ghcr.io/luxfi/node:v1.34.28`**
-  (recovery series). *(As-of-this-writing; node ops are tracked elsewhere, not in
-  this repo.)*
+  finality-stall **recovery series** — and were **wiped by the 2026-07-10 fresh
+  genesis** (see the reset entry above). They stand as the re-mint spec.
+- The recovery's true root cause was a **C-Chain `warpConfig` VM-init bug, not
+  consensus**; the fresh genesis on **`ghcr.io/luxfi/node:v1.34.29`** (consensus
+  v1.35.38) proved 5/5 convergence + node-drop self-heal. Full detail is tracked
+  in node ops, not here: `~/work/lux/consensus/docs/postmortems/tendermint-accretion.md`.
+- Final app-layer redeploy (NFTs + distribution) is **deferred to after v1.36**
+  so it happens **once**. *(Node ops are tracked elsewhere, not in this repo.)*
 
 ---
 

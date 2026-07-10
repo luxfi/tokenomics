@@ -6,6 +6,19 @@ documentation + verified on-chain data. No application code, no secrets.
 
 Docs are **Markdown** (this is not a papers/proofs/audits tree, so not LaTeX).
 
+> **⚠️ READ FIRST — 2026-07-10 genesis reset.** Mainnet 96369 was reset to a fresh
+> genesis on 2026-07-10 to recover from a C-Chain `warpConfig` VM-init bug (not
+> consensus). **All on-chain NFT state (the 118 tokens on `0x004287C4…`) was
+> wiped**; the treasury **2T is preserved** (genesis allocation). Therefore: the
+> **2T supply + distribution** ([SUPPLY.md](SUPPLY.md)) and the **ETH→C-Chain
+> migration record** ([migration/](migration/)) are the **spec** and remain
+> canonical; but every **"current on-chain"** figure (118 tokens, 100/100
+> validators, ~1.99T balance) now describes the **pre-reset** chain and is the
+> **re-mint / convergence target**, not live state. Re-mint + the ~990B
+> redistribution are **deferred to after the v1.36 consensus rip-out** (one
+> app-layer redeploy). Event of record: [migration/HISTORY.md](migration/HISTORY.md)
+> (2026-07-10). Root cause: `~/work/lux/consensus/docs/postmortems/tendermint-accretion.md`.
+
 ---
 
 ## What lives where

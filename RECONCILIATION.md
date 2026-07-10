@@ -7,6 +7,18 @@ any "current" number — the canonical tables in [SUPPLY.md](SUPPLY.md) are the
 
 Every ⚠️ here is an open item for the owner to resolve.
 
+> **⚠️ POST-RESET (2026-07-10) — the on-chain "current state" figures below are
+> WIPED.** Mainnet 96369 was reset to a **fresh genesis** on 2026-07-10 to recover
+> from a C-Chain `warpConfig` VM-init bug (not consensus). The **118 NFTs and all
+> post-genesis state are gone**; the treasury `0x9011` **2T is preserved** (it is a
+> genesis allocation). So the "118 tokens", "100/100 validators", and "~1.99T in
+> `0x9011`" numbers below describe the **pre-reset chain** and now serve as the
+> **re-mint / convergence target**, not live state. The re-mint **and** the ~990B
+> redistribution are **deferred to after the v1.36 consensus rip-out** so the app
+> layer is redeployed **once**. Timeline of record:
+> [migration/HISTORY.md](migration/HISTORY.md) (2026-07-10 entry). Root cause:
+> `~/work/lux/consensus/docs/postmortems/tendermint-accretion.md`.
+
 ---
 
 ## 1. Supply-level reconciliation

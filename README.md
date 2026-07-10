@@ -150,6 +150,14 @@ holds ~1.99T (target 1.00T), coins are 18/11,111 minted, validators are 100/100 
 the Private Sale is void, and the C-Chain contract still needs a tier extension
 (no 10B coin tier, no Card bond). Read it before quoting "current" numbers.
 
+> **⚠️ 2026-07-10 genesis reset.** Mainnet 96369 was reset to a fresh genesis on
+> 2026-07-10 to recover from a C-Chain `warpConfig` VM-init bug (not consensus).
+> The **118 NFTs and all post-genesis state were wiped**; the treasury **2T is
+> preserved** (genesis alloc). The migration record and the "current" NFT counts
+> above are now the **re-mint target**, not live chain state. Re-mint + the ~990B
+> convergence are **deferred to after the v1.36 consensus rip-out** (one app-layer
+> redeploy). Timeline: [migration/HISTORY.md](migration/HISTORY.md) (2026-07-10).
+
 ---
 
 ## Repository map

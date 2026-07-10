@@ -82,6 +82,13 @@ is why the on-chain token **names** cross the two vocabularies. Read a name as
 
 ## 3. Current on-chain state (118 tokens)
 
+> **⚠️ SUPERSEDED (2026-07-10 genesis reset).** This 118-token state was **wiped**
+> when mainnet 96369 was reset to a fresh genesis on 2026-07-10 (recovery from a
+> `warpConfig` VM-init bug). The contract `0x004287C4…` and its 118 tokens are
+> **gone from chain**; this table is the **re-mint target**, not live state. The
+> treasury 2T (genesis alloc) survived. Re-mint is **deferred to after v1.36**.
+> See [migration/HISTORY.md](../migration/HISTORY.md) (2026-07-10 entry).
+
 From [`data/cchain-current.json`](../data/cchain-current.json), corrected:
 
 | | Validators | Coins | Total |
