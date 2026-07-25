@@ -75,9 +75,25 @@ Two on-chain actions completed the collection:
    > across three scripts instead of being derived once. The re-mint plan mints
    > each treasury validator **at its canonical serial directly**, so there is no
    > renumber step to get half-done.
-3. **On-chain SVG art / metadata restored** for the migrated tokens (including
-   C-Chain token id 49 / Ethereum #50, which had a `null` name in the export
-   snapshot).
+3. **On-chain SVG art / metadata set** for the 50 migrated tokens
+   (`SetNftURIs.s.sol`, 23:46Z run).
+
+   > **⚠️ One URI is unconfirmed — C-Chain token id 49 / Ethereum #50.** That
+   > broadcast recorded **51 transactions but only 50 receipts** (all 50
+   > successful), and the transaction with no receipt is the **last** one,
+   > `setTokenURI(49, …)`. Two earlier runs (2026-07-07 23:33Z, 2026-07-09
+   > 20:29Z) produced **no transaction hashes at all** — simulations that never
+   > broadcast. Whether id 49 landed can no longer be checked: the contract was
+   > wiped the next day. Consistent with `data/cchain-current.json` (snapshot
+   > 16:11Z, i.e. *before* the 23:46Z run) recording `"name": null` for id 49.
+   >
+   > **This single unconfirmed URI is the entire factual basis for the
+   > "~43 interrupted token URIs" in the backlog — that figure has no support
+   > anywhere in the chain or broadcast record.** Ethereum, re-probed
+   > 2026-07-25, is clean: 50 tokens, ids 1–50, no gaps, no duplicates, no
+   > malformed or truncated URIs. See
+   > [`data/eth-genesis-inventory.json`](../data/eth-genesis-inventory.json)
+   > (regenerate/verify: `node scripts/probe-eth-genesis.mjs --check`).
 
 **Result of the 2026-07-09 pass:** 118 tokens on-chain — 100 Genesis Validators
 (32 original + 68 treasury) + 18 Coins (original holders). **12,093

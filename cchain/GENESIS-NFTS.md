@@ -119,9 +119,13 @@ From [`data/cchain-current.json`](../data/cchain-current.json), corrected:
 
 Coin bonds: `2×1B + 5×100M + 8×10M + 3×1M = 2,583,000,000 LUX`.
 
-Token id 49 (Ethereum #50) had a `null` name in the export snapshot; its art /
-metadata were restored on-chain during the 2026-07-09 pass (it is a Genesis
-Validator by `originTokenId`). See [migration/HISTORY.md](../migration/HISTORY.md).
+Token id 49 (Ethereum #50) had a `null` name in the export snapshot — the
+snapshot was taken **before** the URI pass ran. Its `setTokenURI` is the **one
+transaction in the whole record with no receipt** (last tx of the 2026-07-09
+23:46Z run: 51 transactions, 50 receipts, all 50 successful), so whether it
+landed is unverifiable — the contract was wiped the next day. It is a Genesis
+Validator by `originTokenId` either way. See
+[migration/HISTORY.md](../migration/HISTORY.md) (2026-07-09, item 3).
 
 ---
 
