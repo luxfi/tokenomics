@@ -16,6 +16,10 @@ Every check below is enforced by the generator (build fails otherwise):
 - A **Coin**'s C-Chain tier name matches its Ethereum bond exactly
   (GENESIS COIN=1B, VALIDATOR COIN=100M, MINI COIN=10M, NANO COIN=1M).
 - The 100 Genesis-Validator **serial numbers are exactly #1–#100** — no gaps, no duplicates.
+  ⚠️ **This check reads the `name` field only.** Nine treasury tokens passed it while
+  carrying a stale `Validator No` trait and stale on-chain artwork — see
+  [HISTORY.md](HISTORY.md) (2026-07-09, item 2). Agreement between name, trait and art
+  is enforced separately by [`scripts/verify-genesis-metadata.mjs`](../scripts/verify-genesis-metadata.mjs).
 
 ## Part 1 — Original holders (ETH #1–50 → C-Chain #0–49, 1:1)
 

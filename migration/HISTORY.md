@@ -52,12 +52,29 @@ Two on-chain actions completed the collection:
    #1–#100** (verified: no gaps, no duplicates). The serials the treasury filled
    at **≤ #50 are precisely the Ethereum tokenIds that had been spent on Coins**
    — the "unminted validator" slots — and the treasury also completed **#51–#100**.
-2. **9 numbering collisions renumbered to exact #1–#100.** During the completion,
-   an initial serial assignment collided with **9** serials already held by
-   original holders; those were renumbered so the final set is a clean bijection
-   onto #1–#100. *(The count "9" is from the operator log; the final clean state
-   — serials == {1..100}, no dupes — is independently verified by
-   [`gen_migration_map.py`](../data/gen_migration_map.py).)*
+2. **9 numbering collisions renumbered — but only in the `name` field.**
+   `MintTreasuryValidators.s.sol` minted the 68 treasury validators as a naive
+   consecutive run **#33–#100**, instead of the 68-serial *complement*
+   ({1..100} minus the 32 serials already held by original holders). Nine of
+   those — **#36, #37, #38, #41, #42, #47, #48, #49, #50** — collided with
+   Ethereum-origin validators. `FixTreasuryNumbers.s.sol` then renumbered them to
+   the nine free serials **#4, #5, #6, #12, #24, #25, #29, #30, #31**.
+
+   > **⚠️ That fix was incomplete — verified 2026-07-25.** All nine replacement
+   > payloads were templated off validator **#33** and only the `name` string was
+   > edited. Every one of them kept `"Validator No": 33` and on-chain artwork
+   > reading **`VALIDATOR #33 / 100`**. Together with the genuine #33 (C-Chain id
+   > 50), the pre-reset collection therefore had **ten tokens rendering as #33**.
+   > The "no gaps, no duplicates" verification below was only ever run against
+   > `name` — it never inspected the trait or the SVG, so it passed.
+   > Pinned as a regression test in
+   > [`scripts/verify-genesis-metadata.mjs`](../scripts/verify-genesis-metadata.mjs);
+   > the corrected metadata is emitted by
+   > [`scripts/genesis-metadata.mjs`](../scripts/genesis-metadata.mjs).
+   > **Root cause:** the serial was materialised 127 times as literal base64
+   > across three scripts instead of being derived once. The re-mint plan mints
+   > each treasury validator **at its canonical serial directly**, so there is no
+   > renumber step to get half-done.
 3. **On-chain SVG art / metadata restored** for the migrated tokens (including
    C-Chain token id 49 / Ethereum #50, which had a `null` name in the export
    snapshot).

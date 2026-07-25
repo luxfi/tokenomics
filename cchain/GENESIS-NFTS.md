@@ -97,9 +97,15 @@ From [`data/cchain-current.json`](../data/cchain-current.json), corrected:
 | Held by DAO treasury `0x9011` | 68 | 0 | 68 |
 | **Total minted** | **100** | **18** | **118** |
 
-- **100 Genesis Validators** — serial-numbered exactly **#1–#100** (verified: no
-  gaps, no duplicates). 32 held by the 28 original wallets; 68 held by the DAO
-  treasury (the completion of the authorized 100).
+- **100 Genesis Validators** — serial-numbered exactly **#1–#100** *by `name`*
+  (no gaps, no duplicates). 32 held by the 28 original wallets; 68 held by the
+  DAO treasury (the completion of the authorized 100).
+  > ⚠️ **By trait and artwork the pre-reset set was NOT clean.** The nine
+  > renumbered treasury tokens kept `"Validator No": 33` and art reading
+  > `VALIDATOR #33 / 100`, so ten tokens rendered as #33. Verified 2026-07-25;
+  > detail in [migration/HISTORY.md](../migration/HISTORY.md) (2026-07-09,
+  > item 2). The re-mint plan mints each treasury validator at its canonical
+  > serial directly, so no renumber step exists to get half-applied.
 - **18 Coins** — all held by original holders: 2× GENESIS(1B), 5× VALIDATOR(100M),
   8× MINI(10M), 3× NANO(1M).
 

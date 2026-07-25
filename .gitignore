@@ -12,3 +12,8 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# Derived: `node scripts/gen-remint-plan.mjs` regenerates it deterministically
+# from data/genesis-registry.json + scripts/genesis-metadata.mjs. Committing
+# ~475 KB of materialised base64 is the exact anti-pattern this pipeline removed.
+data/genesis-remint-plan.json

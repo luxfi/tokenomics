@@ -34,6 +34,9 @@ Docs are **Markdown** (this is not a papers/proofs/audits tree, so not LaTeX).
 | Token-by-token ETH→C-Chain→holder map (generated) | [migration/MAPPING.md](migration/MAPPING.md) |
 | Current on-chain vs canonical target; every gap + ⚠️ | [RECONCILIATION.md](RECONCILIATION.md) |
 | Overview + canonical tables + repo map | [README.md](README.md) |
+| Canonical #1–#100 registry (118 rows, generated) | [data/genesis-registry.json](data/genesis-registry.json) |
+| Live Ethereum inventory (50 tokens, generated) | [data/eth-genesis-inventory.json](data/eth-genesis-inventory.json) |
+| The ONE metadata renderer + its equivalence proof | [scripts/](scripts/) |
 
 ---
 
@@ -89,7 +92,8 @@ The script reads `ethereum/HOLDER-SNAPSHOT.md` + `data/cchain-current.json` and
 - ETH token *N* ↔ C-Chain token *N−1*, **same holder** (owner equality, all 50).
 - Each **Coin**'s C-Chain tier name matches its Ethereum bond
   (GENESIS=1B, VALIDATOR=100M, MINI=10M, NANO=1M).
-- The 100 Genesis-Validator **serials are exactly #1–#100** (no gaps, no dupes).
+- The 100 Genesis-Validator **serials are exactly #1–#100** (no gaps, no dupes)
+  — ⚠️ **`name` field only**; see the metadata scripts below for the trait/art check.
 - Treasury serials ≤50 equal the ETH **coin** tokenIds; treasury count = 68.
 - ETH reserve = 34,583,000,000; C-Chain coin bond = 2,583,000,000.
 
@@ -102,6 +106,54 @@ The script reads `ethereum/HOLDER-SNAPSHOT.md` + `data/cchain-current.json` and
 
 If the on-chain state changes, refresh `data/*-current.json` / `*-supply.json`
 from live queries first, then re-run the generator.
+
+---
+
+## The Genesis metadata pipeline (`scripts/`)
+
+Four small Node scripts. **None of them can send a transaction** — the Ethereum
+prober is `eth_call`/`eth_getCode` only, and the re-mint output is a plan file.
+
+```bash
+node scripts/probe-eth-genesis.mjs          # ETH mainnet -> data/eth-genesis-inventory.json
+node scripts/probe-eth-genesis.mjs --check  # assert chain still matches the inventory
+node scripts/gen-genesis-registry.mjs       # -> data/genesis-registry.json  (the canonical #1-#100)
+node scripts/verify-genesis-metadata.mjs    # byte-for-byte proof + the #33 defect pin
+node scripts/gen-remint-plan.mjs            # -> data/genesis-remint-plan.json (UN-EXECUTED)
+```
+
+- **`data/genesis-registry.json` is the source of truth for the collection** —
+  118 rows (100 validators #1–#100 + 18 coins), each with serial, `tier`, bond,
+  origin, C-Chain id and owner. `name` is the display string and varies by origin;
+  **`tier` is the class** — never classify by parsing a name (that is the
+  `"VALIDATOR COIN"`-contains-"validator" trap).
+- **`scripts/genesis-metadata.mjs` is the ONE renderer.** All 118 tokens are one
+  500×500 SVG template with four substitutions (accent, glow, title/subtitle,
+  footer). `verify-genesis-metadata.mjs` proves it reproduces **118/118** deployed
+  payloads byte-for-byte and pins the nine defective ones.
+- Why this exists: the three broadcast scripts in `~/work/lux/standard/script/`
+  materialised that template **127 times** as ~450 KB of literal base64. A serial
+  then lived in 127 places, which is precisely how nine of them ended up
+  disagreeing with their own artwork. The registry holds each serial once.
+
+### Ethereum-side state — verified 2026-07-25
+
+`0x31e0F919…` is **clean**: 50 tokens, ids **1–50 contiguous, no duplicates, no
+malformed or truncated tokenURIs**, all 50 with a non-zero content hash. The only
+defect is that every tokenURI points at **`lux.town`, which has no nameservers**.
+
+**That cannot be fixed on Ethereum.** The deployed Zora-fork Media contract has
+no `setTokenURI`, no `setBaseURI` and no owner override — the sole mutator is
+`updateTokenURI(uint256,string)` gated `onlyApprovedOrOwner`, so only each of the
+28 individual holders (or an operator they approve) can rewrite their own tokens.
+`owner()` = `0x2781bdc83a612f0fe382476556c0cc12fe602294` cannot.
+
+The repair is therefore **client-side and already live**: the on-chain URI stays
+the source of truth for *which* asset a token is, and only the host + extension
+are rewritten to `https://cdn.lux.network/nfts/` (`NFT_MEDIA_BASE` in
+`lux/cloud/apps/web/src/lib/brand.ts`, applied by `nftMedia()` in `lib/chain.ts`).
+Rewriting the Ethereum URIs would also destroy the only on-chain type signal —
+`?type=__validator__` / `?lux=N` is what classifies every token. **Do not do it.**
 
 ---
 

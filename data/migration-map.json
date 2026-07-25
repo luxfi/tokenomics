@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-09T23:27:27Z",
+  "generated_utc": "2026-07-25T22:18:09Z",
   "note": "Regenerate with: python3 data/gen_migration_map.py",
   "ethereum": {
     "media_contract": "0x31e0F919C67ceDd2Bc3E294340Dc900735810311",
